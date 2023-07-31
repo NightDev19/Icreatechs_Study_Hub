@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+h1,h2,p,li,tr,td{
+    color:white;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+table,th,td{
+    border: 2px white solid;
+    padding: 5px;
+}
