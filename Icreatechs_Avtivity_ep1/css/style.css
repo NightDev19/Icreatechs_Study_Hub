@@ -1,14 +1,46 @@
-body{
-    background: black;
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
 }
-h1,h2,p,li,tr,td{
-    color:white;
+h1,
+h2,
+p,
+th,
+td,
+li {
+  color: white;
 }
-img{
-    width: 400px;
-    height: 200px;
+a {
+  margin: 20px 0 0 0;
 }
-table,th,td{
-    border: 2px white solid;
-    padding: 5px;
+img {
+  width: 500px;
+  height: 200px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+}
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+}
+th {
+  width: 25%;
+  background-color: #333;
+  color: white;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 2%;
 }
