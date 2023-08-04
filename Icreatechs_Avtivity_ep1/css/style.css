@@ -9,20 +9,15 @@ body {
 h2,h1{
   color:aqua;
 }
-p,th,td,li {
+p,th,td,li,a {
   color: white;
 }
 a {
   margin: 20px 0 0 0;
-  color:white;
 }
 img {
   width: 500px;
   height: 200px;
-}
-.list {
-  display: flex;
-  justify-content: space-around;
 }
 table {
   border-collapse: collapse;
@@ -40,4 +35,8 @@ th {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2%;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
 }
