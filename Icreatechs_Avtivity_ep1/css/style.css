@@ -6,16 +6,15 @@ body {
   justify-content: center;
   font-family: sans-serif;
 }
-h1,
-h2,
-p,
-th,
-td,
-li {
+h2,h1{
+  color:aqua;
+}
+p,th,td,li {
   color: white;
 }
 a {
   margin: 20px 0 0 0;
+  color:white;
 }
 img {
   width: 500px;
@@ -30,8 +29,7 @@ table {
   border: 1px solid black;
   text-align: center;
 }
-th,
-td {
+th,td {
   border: 1px solid white;
   padding: 8px;
 }
